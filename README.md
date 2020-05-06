@@ -75,7 +75,7 @@ function addTodo(event) {
   item.innerText = document.getElementById("item").value;
 
   const button = document.createElement("button");
-  button.innerText = "x";
+  button.innerText = x;
   button.addEventListener("click", removeTodo);
   item.append(button);
 
